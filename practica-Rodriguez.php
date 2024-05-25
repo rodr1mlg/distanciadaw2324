@@ -31,8 +31,9 @@ class Matematicas
      */
     public static function multiplicar($multiplo1, $multiplo2)
     {
-        $producto = $multiplo1 * $multiplo2;
-        return $producto;
+        //cambiamos producto por resultado
+        $resultado = $multiplo1 * $multiplo2;
+        return $resultado;
     }
 
     /**
